@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Main Page</title>
+	<style>
+		h1{
+			text-align: center;
+		}
+
+		#info{
+			position: fixed;
+			width:150px;
+			height:70px;
+			left:0px;
+			right:200px;
+			top:0px;
+			bottom:0px;
+			margin:auto;
+			font-size: 18px;
+		}
+		#rest{
+			position: fixed;
+			width:150px;
+			height:70px;
+			left:200px;
+			right:0px;
+			top:0px;
+			bottom:0px;
+			margin:auto;
+			font-size: 18px;
+		}
+
+	</style>
+</head>
+<body>
+	<h1>MainPage</h1>
+	<button id='info'>Information about me</button>
+	<button id='rest'>REST</button>
+	<script>
+		document.getElementById('info').addEventListener('click',()=>{
+			window.location.href = "http://localhost:8080/about.html";
+		});
+		document.getElementById('rest').addEventListener('click',()=>{
+			window.location.href = "http://localhost:8080/weather";
+		});
+	</script>
+</body>
+</html>

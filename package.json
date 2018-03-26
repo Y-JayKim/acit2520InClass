@@ -1,0 +1,16 @@
+{
+  "name": "8.server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "challenge_blank.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jay Kim",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "handlebars": "^4.0.11",
+    "hbs": "^4.0.1"
+  }
+}
