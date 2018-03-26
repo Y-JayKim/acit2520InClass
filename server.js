@@ -18,7 +18,7 @@ hbs.registerHelper('getCurrentYear', () => {
 hbs.registerHelper('message', (text) => {
 	return text.toUpperCase();
 })
-
+//nothing
 // app.use((requset, response, next)=>{
 // 	response.render('maintenance.hbs');
 // });
